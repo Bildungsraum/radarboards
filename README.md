@@ -1,2 +1,2 @@
-Radarboards-Bildungsraum
-Visualization of educational and technological dimensions for educational platforms
+# Radarboards-MBR
+Visualization of educational and technological dimensions for educational platforms 
