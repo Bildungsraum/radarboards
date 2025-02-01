@@ -170,14 +170,18 @@ function updateProjektBeschreibungText() {
     }
   };
   //indexDim = Math.ceil(indexVisible / 4); // um Beschreibung Dim anzeigne zu können
-  var text2 = dataDimensionen[indexDim-1]["textLang"].replace(/\n/g, ' ');
+  //console.log("indexDim:",indexDim, "indexVisible:", indexVisible);
+  if (indexDim > 0) {
+    var text2 = dataDimensionen[indexDim-1]["textLang"].replace(/\n/g, ' ');
+  }
+
   var text4 = dataBeschreibungUnterDimensionen[indexVisible]["textLang"].replace(/\n/g, ' ');
   var text5 = dataBeschreibungUnterDimensionen[indexVisible]["textZusatzLang"].replace(/\n/g, ' ');
 
   //colorTextDim = am5.Color.lighten(eval('ColorDim' + indexDim + 'Value1'), -0.3);
   //console.log("color text dimesnion:" + colorTextDim);
 
-  if (indexVisible >= 0) {
+  if (indexVisible >= 0 && indexDim > 0) {
     var text1Projekt = "[fontSize: 13px fontWeight: 700 #" + colorTextDim + "]" + dataDimensionen[indexDim - 1].dimension; // Titel Dim
     var text2Projekt = "[fontWeight: 400 fontSize: 13px]" + text2; // Text Definition Dim
     /* var text3Projekt = "[fontSize: 13px fontWeight: 700 #" + colorTextDim + "]" + dataBeschreibungUnterDimensionen[indexVisible].dimension; //Titel UDim */
