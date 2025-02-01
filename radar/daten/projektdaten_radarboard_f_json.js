@@ -1,5 +1,5 @@
 //#region ///--------C Set Data------------------------------------------------------------------------------------------------
-var projekteNamen = ['ALFA2', 'AMSEL2', 'AVILAB2', 'BIRD', 'BRAINCON2', 'CoCoTeQ2', 'Coding-Labs2', 'CoHaP2', 'CoKoMo2', 'Cor-metasu', 'CuC ', 'Di2Design2', 'E365 Maverick', 'EDUvision-2021-2', 'eteachProNBP2', 'EVA-NBP2', 'FSJ2', 'GINI2', 'HPI4NBP2', 'Hybrid-Learn2', 'ICDL-Port2', 'ITs JOINTLY', 'KoKoN2', 'KUCOBINA', 'LENABI2', 'LernGrammis2', 'LIKE2', 'LO-AK2', 'MIL2', 'MINT_OBadges', 'NELE', 'OpenJupyter2', 'PIM-2-02', 'SCB2', 'Scobees2', 'SHRIMP_PODS2', 'SolVing2', 'Synapse', 'TOERN2', 'TrainSpot2', 'ubiMaster2', 'VE-Collab', 'Vision-Kino-3-2'];
+var projekteNamen = ['ALFA2', 'AMSEL2', 'AVILAB2', 'BIRD', 'BRAINCON2', 'CoCoTeQ2', 'Coding-Labs2', 'CoHaP2', 'CoKoMo2', 'Cor-metasu', 'CuC', 'Di2Design2', 'E365-Maverick', 'EDUvision-2021-2', 'eteachProNBP2', 'EVA-NBP2', 'FSJ2', 'GINI2', 'HPI4NBP2', 'Hybrid-Learn2', 'ICDL-Port2', 'ITs-JOINTLY', 'KoKoN2', 'KUCOBINA', 'LENABI2', 'LernGrammis2', 'LIKE2', 'LO-AK2', 'MIL2', 'MINT_OBadges', 'NELE', 'OpenJupyter2', 'PIM-2-02', 'SCB2', 'Scobees2', 'SHRIMP_PODS2', 'SolVing2', 'Synapse', 'TOERN2', 'TrainSpot2', 'ubiMaster2', 'VE-Collab', 'Vision-Kino-3-2'];
 
 
 var projekteAuspraegung = ['Dim k.A.', 'Dim in Ansätzen.', 'Dim adressiert.', 'Dim ausgepr.'];
