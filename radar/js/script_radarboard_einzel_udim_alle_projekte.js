@@ -110,37 +110,6 @@ labelMenu.events.on("click", function (ev) {
   };
 });
 
-/* var labelHilfe = containerTitle.children.push(am5.Label.new(root, {
- // paddingLeft: 65,
-  paddingTop: 7,
-  x: 59,
-  x: 1290,
-  text: "🛈",
-  fontSize: 21,
-  fill: ColorBlackYAxisText,
-  cursorOverStyle: "pointer",
-  tooltip: am5.Tooltip.new(root, { paddingBottom: 4, paddingTop: 2, pointerOrientation:"up" }),
-  tooltipX: 20,
-  tooltipY: 30,
-  tooltipText: "[fontWeight: 500 fontSize: 12px #fff]Video-Erklärung anzeigen",
-  background: am5.Rectangle.new(root, {
-    fill: am5.color(0x000000),
-    fillOpacity: 0
-  })
-}));
-
-labelHilfe.events.on("click", function (ev) {
-  helpVideoStatus = document.getElementById('helpvideo').style.display;
-
-  if (helpVideoStatus == 'none') {
-    document.getElementById('CloseButton').style.display = 'inline-block';
-    document.getElementById('helpvideo').style.display = 'inline-block';
-  }
-  else {
-    document.getElementById('helpvideo').style.display = 'none';
-    document.getElementById('CloseButton').style.display = 'none';
-  }
-}); */
 //---------------------Ende Menu links Hamburger rechts Hilfe Video------------------
 
 var tooltipNetworkViz = am5.Tooltip.new(root, { pointerOrientation: "up", getFillFromSprite: false, dy: 9, dx: 0 });
@@ -201,7 +170,7 @@ function updateProjektBeschreibungText() {
     }
   };
   //indexDim = Math.ceil(indexVisible / 4); // um Beschreibung Dim anzeigne zu können
-  var text2 = dataDimensionen[indexDim]["textLang"].replace(/\n/g, ' ');
+  var text2 = dataDimensionen[indexDim-1]["textLang"].replace(/\n/g, ' ');
   var text4 = dataBeschreibungUnterDimensionen[indexVisible]["textLang"].replace(/\n/g, ' ');
   var text5 = dataBeschreibungUnterDimensionen[indexVisible]["textZusatzLang"].replace(/\n/g, ' ');
 
